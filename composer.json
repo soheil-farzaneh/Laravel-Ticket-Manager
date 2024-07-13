@@ -1,0 +1,26 @@
+{
+    "name": "aqayepardakht/ticket-manager",
+    "autoload": {
+        "psr-4": {
+            "Aqayepardakht\\TicketManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "soheil farzaneh",
+            "email": "soheilfarzaaneh@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aqayepardakht\\Ticket\\TicketServiceProvider"
+            ]
+        }
+    }
+}
